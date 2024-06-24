@@ -1,0 +1,47 @@
+body {
+    background-image: url('/media/recursos/pochoclos1.jpeg'),
+        url('/media/recursos/pochoclos.jpeg'),
+        url('/media/recursos/pochoclos2.jpeg'),
+        url('/media/recursos/pochoclos3.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.contenido-acme {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Fondo más oscuro y menos transparente */
+    padding: 40px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    /* Bordes redondeados */
+    width: 80%;
+    max-width: 600px;
+}
+
+.contenido-acme h1 {
+    font-size: 2.5rem;
+    /* Tamaño del título */
+    margin-bottom: 20px;
+    /* Espacio debajo del título */
+}
+
+.contenido-acme h2 {
+    font-size: 1.8rem;
+    /* Tamaño del subtítulo */
+    margin-bottom: 20px;
+    /* Espacio debajo del subtítulo */
+}
+
+.contenido-acme p {
+    font-size: 1.2rem;
+    /* Tamaño del texto */
+    line-height: 1.6;
+    /* Espaciado entre líneas */
+}

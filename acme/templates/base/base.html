@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACME</title>
+    {% include "base/estilos.html" %}
+</head>
+<body>
+    {% include "base/header.html" %}
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+    {% include "base/script.html" %}
+</body>
+</html>
